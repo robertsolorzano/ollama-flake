@@ -1,7 +1,8 @@
-# Simple Nix Flake for Ollama env
+# Nix Flake for Ollama [![built with nix](https://builtwithnix.org/badge.svg)](https://builtwithnix.org)
 
+## For NixOs users or if you have nix package manager installed on system:
 No need to bloat your system with ollama and models when developing. Copy below flake and place in desired directory
-
+First time setting up enviornment if cuda enabled will take a some time to compile from source 
 ```bash
 nix develop
 ```
